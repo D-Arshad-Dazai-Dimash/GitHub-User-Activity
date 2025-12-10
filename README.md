@@ -1,5 +1,7 @@
 # GitHub User Activity CLI
 
+Project url: https://roadmap.sh/projects/github-user-activity
+
 Command line tool to fetch and display recent GitHub user activity using the GitHub API. Built in plain Java without external libraries.
 
 ## Features
@@ -67,3 +69,4 @@ text
 - Commit count from PushEvent payload
 - Event filtering by type
 - Rate limit handling with User-Agent header
+
