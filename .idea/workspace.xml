@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84b9e3d6-5d16-499f-88b0-e460c551484b" name="Changes" comment="Added fetch method and printActivities methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActivityFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GitHubActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GitHubActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="84b9e3d6-5d16-499f-88b0-e460c551484b" name="Changes" comment="Implement GitHub user activity CLI with HTTP client and formatter&#10;&#10;- Add GitHubApiClient to fetch events from GitHub API&#10;- Add ActivityFormatter to parse JSON and print multiple events&#10;- Improve error handling for invalid users and API failures&#10;- Wire CLI entrypoint to accept username argument" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1765366192909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement GitHub user activity CLI with HTTP client and formatter&#10;&#10;- Add GitHubApiClient to fetch events from GitHub API&#10;- Add ActivityFormatter to parse JSON and print multiple events&#10;- Improve error handling for invalid users and API failures&#10;- Wire CLI entrypoint to accept username argument">
+      <created>1765368111199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765368111199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit and connect with remote repo" />
     <MESSAGE value="Added fetch method and printActivities methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fetch method and printActivities methods" />
+    <MESSAGE value="Implement GitHub user activity CLI with HTTP client and formatter&#10;&#10;- Add GitHubApiClient to fetch events from GitHub API&#10;- Add ActivityFormatter to parse JSON and print multiple events&#10;- Improve error handling for invalid users and API failures&#10;- Wire CLI entrypoint to accept username argument" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement GitHub user activity CLI with HTTP client and formatter&#10;&#10;- Add GitHubApiClient to fetch events from GitHub API&#10;- Add ActivityFormatter to parse JSON and print multiple events&#10;- Improve error handling for invalid users and API failures&#10;- Wire CLI entrypoint to accept username argument" />
   </component>
 </project>
