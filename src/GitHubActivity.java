@@ -11,6 +11,7 @@ public class GitHubActivity {
         try {
             String json = GitHubApiClient.fetch(apiURL);
             ActivityFormatter.printFirstActivity(json);
+            ActivityFormatter.printActivities(json, 10);
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }

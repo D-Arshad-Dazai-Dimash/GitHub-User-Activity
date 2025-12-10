@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84b9e3d6-5d16-499f-88b0-e460c551484b" name="Changes" comment="first commit and connect with remote repo">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActivityFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GitHubActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GitHubApiClient.java" afterDir="false" />
+    <list default="true" id="84b9e3d6-5d16-499f-88b0-e460c551484b" name="Changes" comment="Added fetch method and printActivities methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GitHubActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GitHubActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     <configuration name="GitHubActivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GitHubActivity" />
       <module name="GitHub User Activity" />
-      <option name="PROGRAM_PARAMETERS" value="d" />
+      <option name="PROGRAM_PARAMETERS" value="D-Arshad-Dazai-Dimash" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,14 +77,33 @@
       <option name="project" value="LOCAL" />
       <updated>1765215006819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added fetch method and printActivities methods">
+      <created>1765366192909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765366192909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit and connect with remote repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit and connect with remote repo" />
+    <MESSAGE value="Added fetch method and printActivities methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fetch method and printActivities methods" />
   </component>
 </project>
